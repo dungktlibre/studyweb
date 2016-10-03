@@ -1,0 +1,19 @@
+.social {
+    background-color: orange;
+}
+
+.tooltip {
+    background-color: blue;
+}
+
+body {
+    margin: 0;
+}
+
+p:first-of-type {
+    margin-top: 0;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
