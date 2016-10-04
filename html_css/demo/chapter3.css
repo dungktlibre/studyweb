@@ -1,0 +1,20 @@
+.btn {
+    font-size: 16px;
+}
+
+.btn-danger {
+    background: red;
+}
+
+.btn-success {
+    background: green;
+}
+
+.task{
+    background: #800080;
+}
+
+.task {
+    background: rgba(128, 0, 0, 0.5);
+    background: hsl(0, 100%, 26%);
+}
