@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo List</title>
+        <style media="screen">
+            li {
+                background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/arrow.svg") 0 50% no-repeat;
+                list-style-type: none;
+                padding: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Orange</li>
+            <li>Green</li>
+            <li>Blue</li>
+        </ul>
+
+        <ol start="30">
+            <li>Hi 1</li>
+            <li>hi 2</li>
+            <li>
+                hi 3
+            </li>
+        </ol>
+
+        <!-- reversed -->
+        <ol reversed>
+            <li>hi 1</li>
+            <li>hi 2</li>
+            <li>hi 3</li>
+        </ol>
+
+        <!-- Value Attribute -->
+        <ol>
+            <li>hi 1</li>
+            <li value="9">hi 2</li>
+            <li>hi 3</li>
+        </ol>
+
+        <!-- Description Lists -->
+        <dl>
+            <dt>study</dt>
+            <dd>java</dd>
+            <dd>c</dd>
+            <dd>javascript</dd>
+            <dd>elm</dd>
+            <dt>relax</dt>
+            <dd>reading books</dd>
+            <dd>runing</dd>
+            <dd>watch movie</dd>
+            <dt>work</dt>
+            <dd>first website</dd>
+            <dd>db</dd>
+        </dl>
+
+        <!-- nest a list -->
+        <ol>
+            <li>Walk the dog</li>
+            <li>Fold laundry</li>
+            <li>
+                Go to the grocery and buy:
+                <ul>
+                    <li>Milk</li>
+                    <li>Bread</li>
+                    <li>Cheese</li>
+                </ul>
+            </li>
+            <li>Make dinner</li>
+        </ol>
+
+        <!-- style list -->
+        <ul>
+            <li>Orange</li>
+            <li>Green</li>
+            <li>Blue</li>
+        </ul>
+    </body>
+</html>
