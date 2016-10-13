@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Building Forms</title>
+        <style media="screen">
+            fieldset {
+                border: 1px solid #cecfd5;
+                border-radius: 6px;
+                padding: 24px 30px;
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="date" name="birthday">
+        <input type="time" name="game-time">
+        <input type="email" name="email-address">
+        <input type="url" name="website">
+        <input type="number" name="cost">
+        <input type="tel" name="phone-number">
+
+        <textarea name="comment" rows="8" cols="40">Add your comment here</textarea>
+        <p>
+
+        </p>
+        <input type="radio" name="day" value="Friday" checked>Friday
+        <input type="radio" name="day" value="Saturday">Saturday
+        <input type="radio" name="day" value="Sunday">Sunday
+        <p>
+
+        </p>
+        <!-- Check Boxes -->
+        <input type="checkbox" name="day" value="Friday">Friday
+        <input type="checkbox" name="day" value="Saturday">Saturday
+        <input type="checkbox" name="day" value="Sunday">Sunday
+        <br>
+        <!-- Drop-Down Lists Demo -->
+        <select class="" name="day">
+            <option value="Friday" >Firday</option>
+            <option value="Saturday" >Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+        <br>
+        <!-- Multiple Selections -->
+        <select class="" name="day" multiple>
+            <option value="Friday" selected="">Firday</option>
+            <option value="Saturday" selected="">Saturday</option>
+            <option value="Sunday" selected="">Sunday</option>
+        </select>
+
+        <br>
+        <!-- Submit Input -->
+        <input  type="submit" name="submit" value="Send" />
+        <br>
+        <button type="button" name="submit">
+            <strong>Send Us</strong> a Message
+        </button>
+
+        <br>
+        <!-- Hidden Input -->
+        <input type="hidden" name="tracking-code" value="abc-123">
+        <br>
+        <input type="file" name="file">
+        <br>
+
+        <!-- Label -->
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label>
+          <input type="radio" name="day" value="Friday" checked> Friday
+        </label>
+        <label>
+          <input type="radio" name="day" value="Saturday"> Saturday
+        </label>
+        <label>
+          <input type="radio" name="day" value="Sunday"> Sunday
+        </label>
+        <br>
+        <!-- Fieldset -->
+        <fieldset>
+            <legend>
+                Login
+            </legend>
+            <label>
+                Username
+                <input type="text" name="username" value="">
+            </label>
+            <label>
+                Password
+                <input type="text" name="password" value="">
+            </label>
+        </fieldset>
+
+        <!-- Disabled -->
+        <label>
+            Username
+            <input type="text" name="username" value="" disabled>
+        </label>
+        <br>
+        <!-- Placeholder Demo -->
+        <label>
+            Email address
+            <input type="email" name="email-address" value="hello">
+        </label>
+        <br>
+        <form>
+            <label>
+                Email Address
+                <input type="email" name="email-address" required>
+            </label>
+            <button type="submit" name="send">send</button>
+        </form>
+
+
+
+    </body>
+</html>
