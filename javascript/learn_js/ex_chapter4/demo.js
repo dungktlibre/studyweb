@@ -125,3 +125,23 @@ console.log(string[1]);
 // -> b
 
 // The arguments object
+function noAgruments() {
+
+}
+noAgruments(1, 2, 3);
+
+function threeArguments(a, b, c) {
+}
+threeArguments();
+
+function argumentCounter() {
+    console.log("You gave me", arguments.length, "arguments.");
+}
+argumentCounter(1, 2, 3);
+
+// THE GLOBAL OBJECT
+//var myVar = 10;
+//console.log("myVar" in window);
+//// → true
+//console.log(window.myVar);
+//// → 10

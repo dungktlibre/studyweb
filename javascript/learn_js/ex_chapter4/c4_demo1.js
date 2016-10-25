@@ -104,6 +104,18 @@ function addEntry(events, didITurnIntoASquirrel) {
         squirrel: didITurnIntoASquirrel
     });
 }
+// c2:
+
+function addEntry2(squirrel) {
+    var entry = {events: [], squirrel: squirrel};
+    for (var i = 1; i < arguments.length; i++)
+        entry.events.push(arguments[i]);
+
+    journal.push(entry);
+}
+
+addEntry2(true, "work", "touched tree", "pizza",
+    "running", "television");
 
 function phi(table) {
     return (table[3] * table[0] - table[1] * table[2]) /
@@ -183,3 +195,5 @@ for (var i = 0; i < JOURNAL.length; i++) {
 
 console.log(phi(tableFor("peanut teeth", JOURNAL)));
 // -> 1
+
+
