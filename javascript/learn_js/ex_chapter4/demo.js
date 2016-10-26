@@ -145,3 +145,4 @@ argumentCounter(1, 2, 3);
 //// → true
 //console.log(window.myVar);
 //// → 10
+

@@ -176,8 +176,24 @@ function gatherCorrelations(journal) {
     return phis;
 }
 
+// update gatherCorrelations
+function gatherCorrelations2(journal) {
+    var phis = {};
+    journal.forEach(function (entry) {
+        entry.events.forEach(function (event) {
+            if (!(event in phis))
+                phis[event] = phi(tableFor(event, journal));
+        });
+    });
+    return phis;
+}
+
 var correlations = gatherCorrelations(JOURNAL);
 //console.log(correlations);
+
+
+var correlations2 = gatherCorrelations2(JOURNAL);
+console.log(correlations2);
 
 for (var event in correlations) {
     var correlation = correlations[event];

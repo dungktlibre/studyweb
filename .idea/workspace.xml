@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a804115d-884e-4ef4-8ef1-7b54c3da546d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_AList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_deepComparison.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_reversingAnArray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_theSumOfARange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/learn_js/ex_chapter5/c5_demo1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_demo1.js" afterPath="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_demo1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/demo.js" afterPath="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/demo.js" />
@@ -34,8 +31,18 @@
       <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter4/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="c5_demo1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter5/c5_demo1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,8 +51,8 @@
       <file leaf-file-name="c4_demo1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_demo1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -83,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="c4_deepComparison.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="c4_deepComparison.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_deepComparison.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state relative-caret-position="225">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -109,13 +116,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/demo.js" />
-        <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_demo1.js" />
         <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_theSumOfARange.js" />
         <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_reversingAnArray.js" />
         <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_AList.html" />
         <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_AList.js" />
         <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_deepComparison.js" />
+        <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/demo.js" />
+        <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_demo1.js" />
+        <option value="$PROJECT_DIR$/javascript/learn_js/ex_chapter5/c5_demo1.js" />
       </list>
     </option>
   </component>
@@ -146,7 +154,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -159,7 +167,106 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn_js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn_js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex_chapter5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn_js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex_chapter4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -172,20 +279,20 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Node.js.c4_deepComparison.js">
-    <configuration default="false" name="c4_demo1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="c4_demo1.js" working-dir="$PROJECT_DIR$/javascript/learn_js/ex_chapter4">
-      <method />
-    </configuration>
-    <configuration default="false" name="c4_theSumOfARange.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="c4_theSumOfARange.js" working-dir="$PROJECT_DIR$/javascript/learn_js/ex_chapter4">
-      <method />
-    </configuration>
-    <configuration default="false" name="c4_reversingAnArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="c4_reversingAnArray.js" working-dir="$PROJECT_DIR$/javascript/learn_js/ex_chapter4">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.c4_demo1.js">
     <configuration default="false" name="c4_AList.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="c4_AList.js" working-dir="$PROJECT_DIR$/javascript/learn_js/ex_chapter4">
       <method />
     </configuration>
     <configuration default="false" name="c4_deepComparison.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="c4_deepComparison.js" working-dir="$PROJECT_DIR$/javascript/learn_js/ex_chapter4">
+      <method />
+    </configuration>
+    <configuration default="false" name="demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="demo.js" working-dir="$PROJECT_DIR$/javascript/learn_js/ex_chapter4">
+      <method />
+    </configuration>
+    <configuration default="false" name="c5_demo1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="c5_demo1.js" working-dir="$PROJECT_DIR$/javascript/learn_js/ex_chapter5">
+      <method />
+    </configuration>
+    <configuration default="false" name="c4_demo1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="c4_demo1.js" working-dir="$PROJECT_DIR$/javascript/learn_js/ex_chapter4">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -242,19 +349,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.c4_demo1.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.c4_theSumOfARange.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.c4_reversingAnArray.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.c4_AList.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.c4_deepComparison.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.c4_AList.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.c4_deepComparison.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.demo.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.c5_demo1.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.c4_demo1.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.c4_deepComparison.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.c4_AList.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.c4_reversingAnArray.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.c4_theSumOfARange.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.c4_demo1.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.c4_demo1.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.c5_demo1.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.demo.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.c4_deepComparison.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.c4_AList.js" />
       </list>
     </recent_temporary>
   </component>
@@ -274,22 +381,22 @@
       <workItem from="1477332907298" duration="11032000" />
       <workItem from="1477394857801" duration="14000" />
       <workItem from="1477394885466" duration="14000" />
-      <workItem from="1477394920073" duration="10683000" />
+      <workItem from="1477394920073" duration="12602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21743000" />
+    <option name="totallyTimeSpent" value="23662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="818" y="64" width="782" height="836" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24936062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34691197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34691197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -382,24 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter4/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_demo1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_theSumOfARange.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2">
@@ -434,8 +523,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_deepComparison.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter4/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter4/c4_demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/learn_js/ex_chapter5/c5_demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
